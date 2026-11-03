@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Mayankrana11/APPOLO/releases/tag/APPOLO"><img src="https://img.shields.io/badge/Download-GitHub%20Release-blueviolet?style=for-the-badge&logo=github" alt="Download Release"></a>
   <img src="https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge" alt="Status: Beta">
   <img src="https://img.shields.io/badge/Minecraft-26.3-brightgreen?style=for-the-badge" alt="Minecraft 26.3">
   <img src="https://img.shields.io/badge/Loader-Iris%20%7C%20Sodium%20%7C%20OptiFine-blue?style=for-the-badge" alt="Loaders">
@@ -162,7 +163,7 @@ appolo/
 ## Installation & Setup
 
 1. **Prerequisites**: Ensure you have installed **Minecraft Java Edition 26.3** with **Iris Shaders** (recommended) or **OptiFine**.
-2. **Download**: Obtain the latest `APPOLO` release archive (`APPOLO-v0.1-MC26.3-UltraRT.zip`).
+2. **Download**: Download the official shader release archive directly from the **[APPOLO GitHub Releases Page](https://github.com/Mayankrana11/APPOLO/releases/tag/APPOLO)** (`APPOLO-v0.1-MC26.3-UltraRT.zip`).
 3. **Install**: Place the `.zip` file or unpacked folder directly into your `.minecraft/shaderpacks/` directory.
 4. **Activate**:
    * Launch Minecraft.
