@@ -1,7 +1,7 @@
 # APPOLO
 
 <p align="center">
-  <img src="docs/image1.jpg" alt="APPOLO Shaders Showcase" width="100%">
+  <img src="docs/image1.png" alt="APPOLO Shaders Showcase" width="100%">
 </p>
 
 <p align="center">
@@ -32,8 +32,8 @@
 Designed to push the visual boundaries of the Java Edition rendering engine to cinematic fidelity, APPOLO incorporates comprehensive physical light transport models, hybrid screen-space ray tracing, volumetric light simulation, multi-scale atmospheric scattering, true point-source planetary celestial illumination, and a complete AgX/ACES filmic color science pipeline.
 
 <p align="center">
-  <img src="docs/image2.jpg" alt="APPOLO Daytime Lighting and Water" width="49%">
-  <img src="docs/image3.jpg" alt="APPOLO Night Sky and Milky Way" width="49%">
+  <img src="docs/image2.png" alt="APPOLO Daytime Lighting and Water" width="49%">
+  <img src="docs/image3.png" alt="APPOLO Night Sky and Milky Way" width="49%">
 </p>
 
 ---
