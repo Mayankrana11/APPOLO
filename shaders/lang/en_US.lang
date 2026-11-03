@@ -1,0 +1,131 @@
+# ============================================================================
+# Appolo v0.1 — English Localization & GUI Labels
+# ============================================================================
+
+profile.ULTRA_RT=Ultra RT (Maximum Fidelity - Default)
+profile.EXTREME_CINEMATIC=Extreme Cinematic (4K Astrophotography)
+profile.HIGH=High Quality PBR
+profile.BALANCED=Balanced Fidelity
+
+screen.LIGHTING_SHADOWS=Lighting, Shadows & Global Illumination
+screen.PBR_REFLECTIONS=PBR Materials, Glass, Obsidian & Water
+screen.OVERWORLD_SKY=Overworld Atmosphere & Night Sky
+screen.END_SOLAR_SYSTEM=The End — 3D Solar System
+screen.NETHER_HELLSCAPE=The Nether — Volcanic Hellscape
+screen.CAMERA_POST=Exposure, Tone Mapping & TAA
+screen.PERFORMANCE_SCALE=Resolution & Ray Marching Budgets
+
+option.REFLECTION_QUALITY=Reflection Quality
+option.REFLECTION_QUALITY.comment=Controls ray-marched Screen-Space Reflections (SSR), roughness cone filtering, and procedural environment evaluation across Water, Glass, Obsidian, and Metals.
+value.REFLECTION_QUALITY.1=Low (Fast SSR + Env)
+value.REFLECTION_QUALITY.2=Medium (Balanced SSR)
+value.REFLECTION_QUALITY.3=High (Hi-Res SSR + Roughness)
+value.REFLECTION_QUALITY.4=Ultra RT (Full Multi-Bounce SSR + Binary Refinement)
+
+option.SHADOW_QUALITY=Shadow Quality
+option.SHADOW_QUALITY.comment=Controls Percentage-Closer Soft Shadows (PCSS) variable penumbra search and Vogel disk filtering.
+value.SHADOW_QUALITY.1=Low (4-Tap PCF)
+value.SHADOW_QUALITY.2=Medium (12-Tap Soft PCF)
+value.SHADOW_QUALITY.3=High (24-Tap PCSS)
+value.SHADOW_QUALITY.4=Ultra (32-Tap Physical PCSS Penumbra)
+
+option.shadowMapResolution=Shadow Map Resolution
+option.shadowMapResolution.comment=Resolution of directional sun and moon shadow maps. 4096 recommended for Ultra RT.
+value.shadowMapResolution.1024=1024x1024
+value.shadowMapResolution.2048=2048x2048
+value.shadowMapResolution.4096=4096x4096 (Ultra)
+value.shadowMapResolution.8192=8192x8192 (Extreme)
+
+option.shadowDistance=Shadow Render Distance
+option.shadowDistance.comment=Maximum world distance in blocks covered by real-time shadows.
+
+option.CONTACT_SHADOWS=Screen-Space Contact Shadows
+option.CONTACT_SHADOWS.comment=Traces short-range screen-space rays toward the sun/moon for fine micro-shadows around foliage, grass, and structures.
+
+option.GI_QUALITY=Global Illumination Quality
+option.GI_QUALITY.comment=Controls indirect light bouncing, color bleeding, interior window illumination, and dynamic lava/emissive bounce.
+value.GI_QUALITY.0=Off (Ambient Only)
+value.GI_QUALITY.1=SSGI Standard
+value.GI_QUALITY.2=High SSGI + Emissive Bounce
+value.GI_QUALITY.3=Ultra Hybrid RSM + Multi-Bounce Path GI
+
+option.GI_BOUNCE_INTENSITY=Indirect Bounce Intensity
+option.AO_INTENSITY=Ground-Truth Ambient Occlusion (GTAO)
+option.DYNAMIC_LAVA_LIGHT=Dynamic Lava & Luminous Block GI
+option.CAVE_DARKNESS_LEVEL=Realistic Cave Darkness
+option.SUNLIGHT_INTENSITY=Direct Sunlight Illuminance
+option.MOONLIGHT_INTENSITY=Natural Moonlight Illuminance
+
+option.PBR_MODE=PBR Material Pipeline
+value.PBR_MODE.1=Hybrid LabPBR 1.3 + Procedural Synthesis
+value.PBR_MODE.2=LabPBR 1.3 Resource Pack Only
+value.PBR_MODE.3=Procedural PBR Synthesis Only
+
+option.GLASS_REFRACTION=Architectural Glass Refraction
+option.GLASS_REFLECTION_BOOST=Glass Grazing Fresnel Strength
+option.OBSIDIAN_GLOSS=Obsidian Volcanic Glass Polish
+option.WATER_WAVE_HEIGHT=Water Dynamic Gerstner Wave Amplitude
+option.WATER_CAUSTICS=Underwater & Refractive Caustics
+option.WATER_ABSORPTION_SCALE=Water Depth Absorption Density
+option.ROUGHNESS_FILTERING=Roughness-Dependent Specular Filtering
+
+option.ATMOSPHERE_QUALITY=Atmospheric Scattering Model
+value.ATMOSPHERE_QUALITY.1=Standard Rayleigh-Mie
+value.ATMOSPHERE_QUALITY.2=High Multi-Scattering
+value.ATMOSPHERE_QUALITY.3=Ultra Physical Spectral Atmosphere
+
+option.VOLUMETRIC_QUALITY=Volumetric Light & Fog Quality
+value.VOLUMETRIC_QUALITY.1=Low
+value.VOLUMETRIC_QUALITY.2=Medium
+value.VOLUMETRIC_QUALITY.3=High
+value.VOLUMETRIC_QUALITY.4=Ultra Ray-Marched Shafts & Steam
+
+option.CLOUD_COVERAGE=Volumetric Cloud Coverage
+option.CLOUD_SHADOWS=Dynamic Terrain Cloud Shadows
+option.STAR_DENSITY=Night Sky Star Density
+value.STAR_DENSITY.1=Sparse
+value.STAR_DENSITY.2=Natural
+value.STAR_DENSITY.3=Dense Astrophotography
+value.STAR_DENSITY.4=Ultra Deep-Field (Thousands of Stars)
+
+option.MILKY_WAY_INTENSITY=Milky Way Galactic Core Brightness
+option.DEEP_SPACE_GALAXIES=Distant Galaxies & Nebulae
+option.MOON_PHASE_LIGHTING=Physical Moon Phase & Earthshine
+
+option.PLANET_RENDERING=End Solar System Rendering
+value.PLANET_RENDERING.1=Standard Spherical
+value.PLANET_RENDERING.2=Detailed Atmosphere & Rings
+value.PLANET_RENDERING.3=Ultra 3D Ray-Traced Spheres, Rings & Shadows
+
+option.JUPITER_SCALE=Jupiter Angular Scale
+option.SATURN_SCALE=Saturn Angular Scale
+option.SATURN_RING_DETAIL=Saturn Concentric Ring Detail
+option.EARTH_CITY_LIGHTS=Earth Night-Side City Lights
+option.END_SUN_INTENSITY=End Solar Disc & Corona Intensity
+option.END_STAR_BRIGHTNESS=End Deep-Space Starfield Brightness
+option.PLANET_ROTATION_SPEED=Planetary Axial Rotation Speed
+
+option.NETHER_ATMOSPHERE_DENSITY=Nether Volcanic Haze & Smoke Density
+option.HEAT_DISTORTION=Refractive Heat Haze Distortion
+option.HEAT_HAZE_STRENGTH=Heat Distortion Intensity
+option.NETHER_STEAM_INTENSITY=Rising Lava Steam & Vapor Plumes
+option.NETHER_EMBER_DENSITY=Floating Embers & Volcanic Ash
+option.LAVA_EMISSION_STRENGTH=Molten Lava Blackbody Radiance
+
+option.TONEMAP_OPERATOR=Cinematic Tone Mapping Operator
+value.TONEMAP_OPERATOR.1=AgX Cinematic (Recommended)
+value.TONEMAP_OPERATOR.2=ACES Filmic (Stephen Hill Fitted)
+value.TONEMAP_OPERATOR.3=Neutral PBR Khronos
+
+option.BLOOM_INTENSITY=Physical HDR Bloom Intensity
+option.EXPOSURE_SPEED=Eye Adaptation Speed
+option.EXPOSURE_BIAS=Camera Exposure Bias (EV)
+option.CONTRAST_LEVEL=Cinematic Contrast
+option.SATURATION_LEVEL=Natural Color Saturation
+option.TAA_ENABLED=Temporal Anti-Aliasing & Denoising (TAA)
+option.TAA_SHARPENING=Temporal Contrast Adaptive Sharpening
+
+option.RENDER_RESOLUTION=Internal Shading Resolution Scale
+option.SSR_MAX_STEPS=Max Reflection Ray-March Steps
+option.VOLUMETRIC_STEPS=Volumetric Ray-March Steps
+option.CLOUD_MARCH_STEPS=3D Cloud Ray-March Steps
